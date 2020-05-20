@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public class AuthenticationWebSecurityConfigurer extends WebSecurityConfigurerAdapter{
 
 	/**
-	 * This will configure /auth/oauth/token service
+	 * This will configure oauth/token service
 	 */
 	@Override
 	@Bean
